@@ -1,0 +1,75 @@
+
+/* CSS for the line-slider */
+.cut-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    -webkit-line-clamp: 2;
+  }
+  
+  .cut-text a {
+    width: 100%;
+  }
+  .b-center {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 15px;
+      height: 100%;
+      width: 100%;
+    }
+    .h-custom-div-left-right {
+      height: 270px;
+      width: 100%;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+    .h-custom-div-center {
+      height: 550px;
+      width: 100%;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+    .overlay-div {
+      background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 90%);
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      position: relative;
+      color: #fff;
+    }
+    .overlay-text {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 25px;
+    }
+    .d-center {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 20px;
+      z-index: 30;
+      width: 100%;
+    }
+    .bar-container {
+      width: 90%;
+      height: 2px;
+      border-radius: 10px;
+      background-color: #605e5e;
+  
+      justify-self: center;
+    }
+    .bar-content {
+      height: 100%;
+      width: 0;
+      background-color: #fff;
+    }
+    .slider-div {
+      height: 100%;
+      position: relative;
+    }
